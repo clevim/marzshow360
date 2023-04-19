@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-timothy-oldfield-luufnhochru-unsplash",
-      "name": "timothy-oldfield-luufnHoChRU-unsplash",
+      "id": "0-img1",
+      "name": "img1",
       "levels": [
         {
           "tileSize": 256,
@@ -24,23 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 2.8714170038088023,
-        "pitch": 0.47122822524722174,
+        "yaw": -0.3665191429188148,
+        "pitch": 0.17611349185428615,
         "fov": 1.3848081938437478
       },
       "linkHotspots": [
         {
-          "yaw": 2.6086861869397486,
-          "pitch": 0.039349351220423046,
-          "rotation": 3.141592653589793,
-          "target": "1-bryan-goff-iuyhxaia8ea-unsplash"
+          "yaw": -0.5027344765928081,
+          "pitch": 0.1790731887653454,
+          "rotation": 0,
+          "target": "1-img2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-bryan-goff-iuyhxaia8ea-unsplash",
-      "name": "bryan-goff-IuyhXAia8EA-unsplash",
+      "id": "1-img2",
+      "name": "img2",
       "levels": [
         {
           "tileSize": 256,
@@ -62,26 +62,33 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 0.07039108513079206,
-        "pitch": -0.6385878847183317,
+        "yaw": -2.4001442242643005,
+        "pitch": -0.05581766702254498,
         "fov": 1.3848081938437478
       },
       "linkHotspots": [
         {
-          "yaw": -2.3583752836506378,
-          "pitch": -0.1609462434426181,
+          "yaw": 2.2840256660239753,
+          "pitch": -0.03360670047342751,
           "rotation": 0,
-          "target": "0-timothy-oldfield-luufnhochru-unsplash"
+          "target": "0-img1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.2741024235687757,
+          "pitch": -0.21533744528417742,
+          "title": "Teste",
+          "text": "Teste"
+        }
+      ]
     }
   ],
-  "name": "TESTEPAGE",
+  "name": "marzshow360",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+    "fullscreenButton": false,
+    "viewControlButtons": false
   }
 };
